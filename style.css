@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+.space{
+    display: grid;
+    grid-gap: 5px;
+}
+#header{
+    font-family: 'Poppins';
+    color: aliceblue;
+    text-align: center;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 15px;
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    grid-template-columns: 15% 30% 10% 45%;
+    font-family: 'Poppins';
+}
+#button1{
+    padding: 10px;
+    color: aliceblue;
+    height: 61%;
+    background-color: rgb(56, 61, 60);
+    border-radius: 20px;
+    font-family: 'Poppins';
+}
+#Search{
+    border-radius: 20px;
+    border: outset;
+    height: 24%;
+    color: rgb(32, 32, 32);
+    font-family: 'Poppins';
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#Info{
+    color: aliceblue;
+    text-align: center;
+}
+.wrapper1{
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-color: aliceblue;
+    font-family: 'Poppins';
+    grid-template-columns: 15% 85% ;
+}
+#click{
+    border: 5px;
+    padding: 10px;
+    border-color: aliceblue;
+}
+#New{
+    padding: 10px;
+    border: solid;
+    border-color: rgb(87, 87, 87);
+    color: rgb(27, 27, 26);
+    width: 100%;
+    font-family: 'Poppins';
+    border-radius: 20px;
+    background-color: rgb(160, 159, 157);
+}
+#result{
+    padding: 30px;
+    width: 87%;
+    border: solid;
+    border-color: rgb(167, 167, 167);
+    border-radius: 50px;
+    background-color: rgb(63, 63, 63);
+}
+#picture{
+  width: 100%;
+  border: solid;
+  border-color: aliceblue;
+  border-radius: 15px;
+}
